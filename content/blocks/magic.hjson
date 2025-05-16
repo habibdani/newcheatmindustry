@@ -1,0 +1,7 @@
+name: "[#999900]Magic workbench [#ff0000][Cheat]"
+alwaysUnlocked:true
+category:effect
+requirements:[
+copper/0
+]
+research: cheat-wall
