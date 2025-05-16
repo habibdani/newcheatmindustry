@@ -13,13 +13,6 @@ update(){
             }
         }
 
-        // Tambahkan liquid ke core
-        for (let k = 0; k < Vars.content.liquids().size; k++) {
-            let liquid = Vars.content.liquids().get(k);
-            if (core.liquids.get(liquid) < 10000000) {
-                core.liquids.add(liquid, 100000);
-            }
-        }
 }
 });
 cc.update = true;
