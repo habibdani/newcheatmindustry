@@ -30,7 +30,7 @@ const shield = extend(ForceProjector, "shield", {
 // Properti tambahan untuk shield
 shield.phaseRadiusBoost = 200;
 shield.phaseUseTime = 100;
-shield.radius = 8; // radius mend-style
+shield.radius = 200; // radius mend-style
 shield.size = 1;
 shield.health = 900000000;
 shield.itemCapacity = 100;
